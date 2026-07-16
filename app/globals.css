@@ -20,7 +20,33 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: white;
+  overflow-x: hidden;
+}
+.react-calendar {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: rgb(11, 9, 9);
+}
+
+.react-calendar button {
+  color: rgb(7, 7, 7);
+  border-radius: 12px;
+}
+
+.react-calendar__tile--active {
+  background: #4f46e5 !important;
+}
+
+.react-calendar__navigation button {
+  color: rgb(8, 8, 8);
+  font-size: 18px;
+}
+
+.react-calendar__month-view__weekdays {
+  color: #080808;
 }
